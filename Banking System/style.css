@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+}
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-section, .transaction-section {
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.transaction-section .form-group {
+    margin: 10px 0;
+}
+
+.transaction-section label {
+    font-weight: bold;
+}
+
+.transaction-section input[type="number"] {
+    padding: 10px;
+    width: 5%; /* Adjust the width as needed */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.transaction-section button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.transaction-section button:hover {
+    background-color: #555;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+.transaction-form {
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* CSS in your style.css or a separate CSS file */
+.zoom-effect {
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1); /* Zoom in by 10% */
+}
